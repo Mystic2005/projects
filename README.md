@@ -8,6 +8,7 @@
 # Proiecte GitHub
 
 Acest repository contine mai multe proiecte dezvoltate de mine, incluzand un proiect de analiza data vizualisation in Python, un proiect Laravel React Admin Panel si un site web functional.
+Toate proiectele au README.md dedicat.
 
 ## 1. Analiza pietei imobiliare - Sector 2 (Python/Jupyter)
 ## 2. Laravel React Admin Panel
