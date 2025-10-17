@@ -1,57 +1,90 @@
 # Laravel React Admin Panel
 
-Un proiect full-stack cu Laravel API backend si React frontend pentru managementul utilizatorilor si vizualizarea logurilor.
+A **full-stack web application** with a **Laravel API backend** and **React frontend** for **user management** and **activity log visualization**.
 
-## Ce am facut in proiect
+---
+
+## Features
 
 ### Backend (Laravel)
-- **Sistem de autentificare** cu Sanctum pentru API
-- **Management utilizatori** cu roluri (viewer, editor, admin)
-- **Endpoint-uri protejate** bazate pe roluri
-- **Upload poze de profil** cu storage in Laravel
-- **Sistem de log-uri** cu vizualizare in interfata
-- **API routes** pentru toate operatiile CRUD
+- API authentication using **Laravel Sanctum**  
+- Role-based user management (viewer, editor, admin)  
+- Protected endpoints based on roles  
+- Profile image upload with Laravel storage  
+- Application logging system with frontend visualization  
+- CRUD API routes for all entities  
 
 ### Frontend (React)
-- **Interfata responsive** cu design bento grid
-- **Rutare** cu React Router si animatii Framer Motion
-- **Componente pentru fiecare sectiune**: Login, Register, Profile, Users, Logs
-- **Breadcrumb navigation** pentru usability
-- **Protectie rute** bazata pe roluri
-- **Design coerent** cu font custom Bitcount Prop Double
+- Responsive UI with **Bento grid design**  
+- Routing with **React Router** and animations with **Framer Motion**  
+- Modular components for Login, Register, Profile, Users, and Logs  
+- Breadcrumb navigation for usability  
+- Role-based route protection  
+- Coherent design with custom font *Bitcount Prop Double*  
 
-### Functionalitati principale
-- **Inregistrare** si autentificare utilizatori
-- **Logout** cu invalidare sesiune
-- **Vizualizare si editare profil** cu upload imagine
-- **Management utilizatori** (doar admin) - stergere, editare roluri
-- **Vizualizare log-uri** aplicatie
-- **Design modular** cu componente reutilizabile
+### Core Functionalities
+- User registration and authentication  
+- Logout with session invalidation  
+- Profile viewing and editing with image upload  
+- User management (admin only): delete users, edit roles  
+- Application log viewing  
+- Modular, reusable component design  
 
-## Tehnologii folosite
+---
 
-### Backend
-- Laravel 10
-- Laravel Sanctum (autentificare API)
-- PHP 8.1+
+## Technologies Used
 
-### Frontend  
-- React 18
-- React Router DOM
-- Framer Motion (animatii)
-- Axios (HTTP client)
-- Tailwind CSS
+**Backend:**  
+- Laravel 10  
+- Laravel Sanctum (API authentication)  
+- PHP 8.1+  
 
-## Instalare si rulare
+**Frontend:**  
+- React 18  
+- React Router DOM  
+- Framer Motion (animations)  
+- Axios (HTTP client)  
+- Tailwind CSS  
 
-1. Cloneaza proiectul
-2. `composer install`
-3. `npm install`
-4. Configureaza `.env` cu baza de date
-5. `php artisan migrate`
-6. `php artisan serve`
-7. `npm run dev`
+---
 
-## Concluzie
+## Installation & Setup
 
-Proiectul demonstreaza un sistem complet de administrare cu autentificare, management utilizatori si monitorizare activitate. Arhitectura separata backend-frontend il face scalabil si usor de extins cu functionalitati noi.
+1. Clone the repository  
+   ```bash
+   git clone <repo_url>
+```
+
+2. Install backend dependencies
+
+   ```bash
+   composer install
+   ```
+3. Install frontend dependencies
+
+   ```bash
+   npm install
+   ```
+4. Configure `.env` with your database
+5. Run migrations
+
+   ```bash
+   php artisan migrate
+   ```
+6. Start backend server
+
+   ```bash
+   php artisan serve
+   ```
+7. Start frontend development server
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## Conclusion
+
+This project demonstrates a **complete admin system** with secure authentication, user management, and activity monitoring.
+Its **separated backend-frontend architecture** makes it scalable and easy to extend with new features.
