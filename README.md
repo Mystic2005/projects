@@ -5,13 +5,34 @@
 |__|  |__|__|_____|_____|_____|_____| |_| |_____|
                                                  
 ```
-# Proiecte GitHub
+# GitHub Projects
 
-Acest repository contine mai multe proiecte dezvoltate de mine, incluzand un proiect de analiza data vizualisation in Python, un proiect Laravel React Admin Panel si un site web functional.
-Toate proiectele au README.md dedicat.
+This repository contains several projects I developed, including a data visualization and analysis project in Python, a Laravel React Admin Panel, and a fully functional website.  
 
-## 1. Analiza pietei imobiliare - Sector 2 (Python/Jupyter)
+All projects have a dedicated README.md.
+
+## 1. Real Estate Market Analysis - Sector 2 (Python/Jupyter)
+Exploratory data analysis notebook focused on the real estate market in Bucharest, Sector 2, with data cleaning, feature extraction, and price trend visualization for this area.
+
+Includes interactive charts, correlation analysis between price, area, and location, plus an interactive map that shows all the transactions.
+
 ## 2. Laravel React Admin Panel
+Full-stack admin panel with a Laravel backend and React.js frontend, exposing a REST API for managing users, roles, and application data.
+
+Implements role-based authentication, CRUD operations, logging of actions, and a responsive UI designed for both desktop and mobile workflows.
+
 ## 3. Website - Electrotest
-Am creat un site web, accesibil la:  
-[🔗 electrotest.ro](https://electrotest.ro)  
+I created a fully responsive presentation website for a local electronics company, with a clean React.js frontend and custom CSS styling.
+
+Accessible at:  
+[🔗 electrotest.ro](https://electrotest.ro)
+
+## 4. Graph Coloring AI (Python/Jupyter)
+The `GraphColoring_AI.ipynb` project explores search algorithms and genetic algorithms for the graph coloring problem.
+
+It includes:
+
+- Implementation of A* with different heuristics, performance analysis, and comparisons.
+- Genetic Algorithm applied to optimize graph coloring.
+- Tables showing execution times and solution quality for multiple problems.
+
