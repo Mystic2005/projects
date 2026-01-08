@@ -36,3 +36,5 @@ It includes:
 - Genetic Algorithm applied to optimize graph coloring.
 - Tables showing execution times and solution quality for multiple problems.
 
+You can check out the full project here:  
+[🔗 Graph Coloring AI Repository](https://github.com/Mystic2005/graph-coloring-ai-search-genetic)
