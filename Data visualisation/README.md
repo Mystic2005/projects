@@ -1,32 +1,32 @@
-# Analiza pietei imobiliare - Sector 2
+# Real Estate Market Analysis - Sector 2
 
-Acest proiect este un notebook Jupyter in Python in care am analizat date despre achizitiile de imobiliare din Sector 2, Bucuresti, pentru anul 2023.  
-Datele se gasesc in fisierul `imobiliare-2023.csv` si contin informatii precum tipul proprietatii, strada, suprafata, pretul tranzactiei, sursa de finantare si data tranzactiei.  
+This project is a Python Jupyter notebook in which we analyzed data on real estate purchases in Sector 2, Bucharest, for the year 2023.
+The data is found in the file `imobiliare-2023.csv` and contains information such as property type, street, area, transaction price, financing source and transaction date.
 
-## Ce am facut in proiect
-- Importul fisierului CSV folosind Pandas si filtrarea datelor pentru anul 2023.  
-- Curatarea datelor si transformarea acestora:
-  - conversia valorilor numerice,
-  - combinarea diferitelor suprafete intr-o singura coloana,
-  - traducerea coloanelor in engleza pentru claritate,
-  - adaugarea coloanelor **Luna** si **Sezon**.  
-- Corectarea denumirilor de strazi pentru a permite geocodarea.  
-- Geocodarea strazilor folosind Geopy pentru a obtine latitudine si longitudine.  
-- Crearea de vizualizari interactive cu Plotly:
-  - scatter plot pret vs. suprafata,
-  - trendline pentru preturi,
-  - grafice pe sezoane,
-  - harta interactiva cu tranzactiile imobiliare,
-  - pie chart cu totalul valorii tranzactiilor pe anotimpuri.
+## What we did in the project
+- Importing the CSV file using Pandas and filtering the data for the year 2023.
+- Cleaning the data and transforming it:
+- converting numeric values,
+- combining different areas into a single column,
+- translating the columns into English for clarity,
+- adding the **Month** and **Season** columns.
+- Correcting street names to allow geocoding.
+- Geocoding the streets using Geopy to obtain latitude and longitude.
+- Creating interactive visualizations with Plotly:
+- scatter plot price vs. area,
+- trendline for prices,
+- graphs by seasons,
+- interactive map with real estate transactions,
+- pie chart with the total value of transactions by season.
 
-## Structura proiectului
-- `imobiliare-2023.csv` – dataset cu tranzactiile imobiliare din Sector 2 pe 2023.  
-- `imobiliare2023sect2.ipynb` – notebook Jupyter cu codul si vizualizarile.  
+## Project structure
+- `imobiliare-2023.csv` – dataset with real estate transactions in Sector 2 for 2023.
+- `imobiliare2023sect2.ipynb` – Jupyter notebook with the code and visualizations.
 
-## Tehnologii folosite
-- Pandas  
-- Plotly  
-- Geopy  
+## Technologies used
+- Pandas
+- Plotly
+- Geopy
 
-## Concluzii
-Proiectul arata cum se pot transforma date brute intr-o analiza vizuala, relevand tendinte si pattern-uri in piata imobiliara din Sector 2: sezonalitate, legatura intre suprafata si pret, zone cu tranzactii mai scumpe etc.
+## Conclusions
+The project shows how raw data can be transformed into a visual analysis, highlighting trends and patterns in the real estate market in Sector 2: seasonality, the relationship between area and price, areas with more expensive transactions, etc.
